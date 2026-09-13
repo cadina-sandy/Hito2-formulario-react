@@ -1,6 +1,7 @@
 function Header({ currentView, onNavigate }) {
   return (
     <header className="site-header">
+      {/* Nombre de la pizzería: también funciona como botón de inicio. */}
       <button
         className="brand brand-button"
         type="button"
@@ -11,6 +12,7 @@ function Header({ currentView, onNavigate }) {
         Pizzería Mamma Mía
       </button>
 
+      {/* Botones para cambiar el contenido principal. */}
       <nav aria-label="Navegación principal">
         <button
           className={currentView === 'inicio' ? 'active' : ''}
@@ -19,6 +21,7 @@ function Header({ currentView, onNavigate }) {
         >
           Inicio
         </button>
+
         <button
           className={currentView === 'registro' ? 'active' : ''}
           type="button"
@@ -26,6 +29,7 @@ function Header({ currentView, onNavigate }) {
         >
           Registro
         </button>
+
         <button
           className={currentView === 'login' ? 'active' : ''}
           type="button"
@@ -34,6 +38,11 @@ function Header({ currentView, onNavigate }) {
           Ingresar
         </button>
       </nav>
+
+      {/*
+        Antes estaba así: <a href="#registro">Registro</a>
+        El enlace cambiaba la dirección, pero no mostraba el componente.
+      */}
     </header>
   )
 }
