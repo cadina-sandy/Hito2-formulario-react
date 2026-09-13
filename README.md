@@ -1,4 +1,4 @@
-# 🍕 Pizzería Mamma Mía
+# 🍕 Hito 2 de Pizzería Mamma Mía - Formulario
 
 Proyecto realizado para el desafío **Hito 2 - Pizzería Mamma Mía**, donde se implementan formularios de registro e inicio de sesión utilizando estados y eventos en React.
 
