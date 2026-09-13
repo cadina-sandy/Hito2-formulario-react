@@ -2,6 +2,12 @@
 
 Proyecto realizado para el desafío **Hito 2 - Pizzería Mamma Mía**, donde se implementan formularios de registro e inicio de sesión utilizando estados y eventos en React.
 
+## 🚀 Deploy
+
+Puedes ver el proyecto publicado en Vercel aquí:
+
+[Ver sitio web](https://hito2-formulario-react.vercel.app/)
+
 ## 📝 Descripción
 
 La aplicación permite navegar entre una página de inicio, un formulario de registro y un formulario de inicio de sesión.
@@ -74,11 +80,13 @@ npm run dev
 
 ## ⬆️ Subida del proyecto
 
-El código fue guardado y subido a GitHub en la rama `main`.
+El código fue guardado y subido a GitHub en la rama `main`. El repositorio está conectado con Vercel para publicar automáticamente los nuevos cambios.
 
 ## 🔗 Repositorio
 
 [Ver repositorio en GitHub](https://github.com/cadina-sandy/Hito2-formulario-react)
+
+[Ver proyecto en Vercel](https://hito2-formulario-react.vercel.app/)
 
 ## 👩‍💻 Autora
 
